@@ -1,0 +1,15 @@
+/* src/components/HoverImage.css */
+.image-container {
+    display: inline-block; /* Ajustez selon vos besoins */
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%; /* Ajustez la taille de l'image selon vos besoins */
+    transition: transform 0.3s ease, cursor 0.1s ease; /* Animation fluide */
+  }
+  
+  .image-container.hovered img {
+    transform: scale(1.05); /* Effet de zoom léger au survol */
+    cursor: pointer; /* Change le curseur en pointeur pour indiquer que c'est cliquable */
+  }

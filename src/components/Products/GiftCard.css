@@ -1,0 +1,17 @@
+.gift-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajustez selon vos besoins */
+}
+
+.gift-card-image {
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.gift-card-image:hover {
+  transform: scale(1.05); /* Légèrement agrandie au survol */
+  opacity: 0.9; /* Léger changement d'opacité */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet */
+}
